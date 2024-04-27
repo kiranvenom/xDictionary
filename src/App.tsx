@@ -28,7 +28,7 @@ const App = () => {
 			<h1>Dictionary App</h1>
 			<div className='search'>
 				<input
-					type='search'
+					type='text'
 					placeholder='Search for a word...'
 					onChange={handleInputChange}
 					value={search}
