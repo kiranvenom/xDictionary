@@ -39,7 +39,7 @@ const App = () => {
 			{found !== '' && (
 				<>
 					{found == 'notFound' ? (
-						'Word not found in the dictionary.'
+						<h2>Word not found in the dictionary.</h2>
 					) : (
 						<h2>{found}</h2>
 					)}
